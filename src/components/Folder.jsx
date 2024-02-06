@@ -7,7 +7,7 @@ const Folder = ({ explorer }) => {
     return (
       <div>
         <span onClick={() => setExpand(!expand)}>
-          {explorer.name} <br />{" "}
+          {explorer.name} <br />
         </span>
         <div style={{ display: expand ? "block" : "none", paddingLeft: 15 }}>
           {explorer.items.map((exp) => {
